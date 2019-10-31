@@ -1,0 +1,80 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int angka;
+	cout << "Konversi angka Arab ke angka Romawi" << endl;
+	cout << "Masukkan angka Arab : " << endl;
+	cin >> angka;
+	
+	if (angka >= 1000) {
+		cout << "M";
+		angka = angka - 1000;
+	}if (angka >= 900) {
+		cout << "CM";
+		angka = angka - 900;
+	}
+	if (angka >= 500) {
+		cout << "D";
+		angka = angka - 500;
+	}if (angka >= 400) {
+		cout << "CD";
+		angka = angka - 400;
+	}
+	if (angka >= 300) {
+		cout << "CCC";
+		angka = angka - 300;
+	}
+	if (angka >= 200) {
+		cout << "CC";
+		angka = angka - 200;
+	}
+	if (angka >= 100) {
+		cout << "C";
+		angka = angka - 100;
+	}if (angka >= 90) {
+		cout << "XC";
+		angka = angka - 90;
+	}
+	if (angka >= 50) {
+		cout << "L";
+		angka = angka - 50;
+	}if (angka >= 40) {
+		cout << "XL";
+		angka = angka - 1;
+	}
+	if (angka >= 30) {
+		cout << "XXX";
+		angka = angka - 30;
+	}
+	if (angka >= 20) {
+		cout << "XX";
+		angka = angka - 20;
+	}
+	if (angka >= 10) {
+		cout << "X";
+		angka = angka - 10;
+	}if (angka >= 9) {
+		cout << "IX";
+		angka = angka - 9;
+	}
+	if (angka >= 5) {
+		cout << "V";
+		angka = angka - 5;
+	}if (angka >= 4) {
+		cout << "IV";
+		angka = angka - 4;
+	}
+	if (angka >= 3) {
+		cout << "III";
+		angka = angka - 3;
+	}
+	if (angka >= 2) {
+		cout << "II";
+		angka = angka - 2;
+	}
+	if (angka >= 1) {
+		cout << "I";
+		angka = angka - 1;
+	}
+}
