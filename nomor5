@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char x;
+	int y;
+	cout << "Masukkan karakter digit (0 .. 9) :";
+	cin >> x;
+	switch(x) {
+	case '1' :
+		y = 1;
+		cout << "nilai konversi ke integer : " << y;
+		break;
+	case '2':
+		y = 2;
+		cout << "nilai konversi ke integer : " << y;
+		break;
+	case '3':
+		y = 3;
+		cout << "nilai konversi ke integer : " << y;
+		break;
+	case '4':
+		y = 4;
+		cout << "nilai konversi ke integer : " << y;
+		break;
+	case '5':
+		y = 5;
+		cout << "nilai konversi ke integer : " << y;
+		break;
+	case '6':
+		y = 6;
+		cout << "nilai konversi ke integer : " << y;
+		break;
+	case '7':
+		y = 7;
+		cout << "nilai konversi ke integer : " << y;
+		break;
+	case '8':
+		y = 8;
+		cout << "nilai konversi ke integer : " << y;
+		break;
+	case '9':
+		y = 9;
+		cout << "nilai konversi ke integer : " << y;
+		break;
+	default :
+		y = -99;
+			cout << "nilai konversi ke integer : " << y;
+		break;
+	}
+}
