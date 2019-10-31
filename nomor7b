@@ -3,8 +3,11 @@ using namespace std;
 int main()
 {
 	int angka;
+menu :
+	
+	cout << endl;
 	cout << "Konversi angka Arab ke angka Romawi" << endl;
-	cout << "Masukkan angka Arab : " << endl;
+	cout << "Masukkan angka Arab : ";
 	cin >> angka;
 	
 	if (angka >= 1000) {
@@ -77,4 +80,5 @@ int main()
 		cout << "I";
 		angka = angka - 1;
 	}
+	goto menu;
 }
